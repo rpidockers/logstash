@@ -11,7 +11,7 @@ If you need to run logstash with configuration provided on the commandline, you 
 ```
 $ docker run -it --rm logstash logstash -e 'input { stdin { } } output { stdout { } }'
 ```
-Start Logstash with configuration file
+Start Logstash with configuration directory
 
 If you need to run logstash with a configuration files stored in <local_dir>, you can use the logstash image as follows:
 ```
