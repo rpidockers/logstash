@@ -1,4 +1,12 @@
 # rpidockers/logstash
+
+Image was tested on my ODROID-U3. It should also work on Raspberry Pi, but if not, you'll have to build it yourself.
+
+```
+$ git clone https://github.com/rpidockers/logstash.git
+$ docker build -t rpidockers/logstash logstash
+```
+
 ## Tags
 [1.5.4](https://github.com/rpidockers/logstash/blob/1.5.4/Dockerfile)
 
